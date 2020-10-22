@@ -2,7 +2,9 @@
 
 # Краткое описание
 Взято у https://github.com/AlexDrob/FlexiblePedometer
-для графиков используется https://github.com/PhilJay/MPAndroidChart
+
+Для графиков используется https://github.com/PhilJay/MPAndroidChart
+
 
 Немного переделано под себя
 Добалены каллории
