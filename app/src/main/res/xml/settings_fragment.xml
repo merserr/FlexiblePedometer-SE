@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:custom="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="@string/PedometerSettings">
+
+        <EditTextPreference
+            android:defaultValue="15"
+            android:key="SensitivityPreference"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="sensitivity" />
+
+        <EditTextPreference
+            android:defaultValue="83"
+            android:key="StepWidthPreference"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="stepwidth" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/UserSettings">
+
+        <EditTextPreference
+            android:defaultValue="7000"
+            android:key="StepsPerDayPreference"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="StepsPerDay" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/add">
+
+        <CheckBoxPreference
+            android:key="BeepCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:title="BeepCheckBox" />
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
